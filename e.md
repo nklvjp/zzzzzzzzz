@@ -1,11 +1,9 @@
 ```mermaid
 flowchart LR
-    A-->B
-    B-->C
-    C-->D
-    D-->E
-    click A "https://www.github.com" _blank
-    click B "https://www.github.com" "Open this in a new tab" _blank
-    click C href "https://www.github.com" _blank
-    click D href "https://www.github.com" "Open this in a new tab" _blank
+    1{{Mathematics for Machine Learning}} ---> 2(Linear Algebra)
+    1 ---> 3(Analytic Geometry)
+    1 ---> 4(Matrix Decomposition)
+    1 ---> 5(Vector Calculus)
+    1 ---> 6(Probability and Distributions)
+    1 ---> 7(Continuous Optimization)
 ```
