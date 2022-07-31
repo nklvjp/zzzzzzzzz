@@ -1,9 +1,10 @@
 ```mermaid
 flowchart LR
-    1{{Mathematics for Machine Learning}} ---> 2(Linear Algebra)
-    1 ---> 3(Analytic Geometry)
-    1 ---> 4(Matrix Decomposition)
-    1 ---> 5(Vector Calculus)
-    1 ---> 6(Probability and Distributions)
-    1 ---> 7(Continuous Optimization)
+    A{{Mathematics for Machine Learning}} ---> B(Linear Algebra)
+    A ---> C(Analytic Geometry)
+    A ---> D(Matrix Decomposition)
+    A ---> E(Vector Calculus)
+    A ---> F(Probability and Distributions)
+    A ---> G(Continuous Optimization)
+    B ---> B2(Systems of Linear Equations)
 ```
